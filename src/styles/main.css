@@ -28,11 +28,12 @@ h4{
     width: 50%;
     border-radius: 13px;
     background-color: #ffffb7;
-    margin-top: 10px;
+    margin: 10px;
 }
 #profile-pic{
     width: 50px;
     border-radius: 50%;
+    margin: 2px 14px;
 }
 .profile-img{
     align-items: center;
@@ -41,6 +42,7 @@ h4{
 .content{
     display: flex;
     flex-direction: column;
+    width: 85%;
 }
 .top-content{
     display: flex;
@@ -58,4 +60,11 @@ h4{
 }
 h5,h6,p{
     text-align: justify;
+}
+#chat-number{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    color: #ffffb7;
 }
