@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Navbar from './components/navbar'
+import Card from './components/card'
+import './styles/main.css'
 import './App.css'
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
   return(
     <div className="App">
       <Navbar>Chat-App</Navbar>
+      <Card/>
     </div>
   )
 }

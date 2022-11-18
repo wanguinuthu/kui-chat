@@ -3,8 +3,59 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: 50%;
+    box-shadow: 1px 1px 1px grey;
+    width: 100%;
 }
 #logo{
-    width: 40px;
-    margin-right: 12px;
+    width:15%;
+    margin:0 12px;
+}
+.nav-left{
+    display: flex;
+    flex-direction: row;
+}
+.nav-right{
+    display: flex;
+}
+h4{
+    margin: 0 14px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    border-radius: 13px;
+    background-color: #ffffb7;
+    margin-top: 10px;
+}
+#profile-pic{
+    width: 50px;
+    border-radius: 50%;
+}
+.profile-img{
+    align-items: center;
+    margin-right: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.top-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.bottom-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;    
+    width: 100%;
+}
+h5,h6,p{
+    text-align: justify;
 }
