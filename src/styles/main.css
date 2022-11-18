@@ -1,0 +1,10 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    width: 40px;
+    margin-right: 12px;
+}
